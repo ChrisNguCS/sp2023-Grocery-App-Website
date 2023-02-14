@@ -22,9 +22,10 @@ h1 { line-height: 200%;
     padding-left: 20px;
     height: 72px;
     margin-bottom: 0;
-background-color:##231F20;
+background-color:#231F20;
 color:#ffffff;
 }
+
 nav { font-weight: bold;
      padding: 5px;
      float:left;
@@ -42,6 +43,13 @@ nav ul { list-style-type: none;
 h2 { color: #000000;
     font-family: Arial, helvetica;
 }
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+    margin-bottom: 50px;
+}
 dt { color: #000000;
     font-weight: bold;
 }
@@ -56,6 +64,7 @@ footer { font-size: 0.70em;
        background-color: #FFFFFF;
 }
 h3 { color: #000000;
+    text-align: center;
 }
 main { padding-left: 20px;
         padding-right: 20px;
@@ -71,3 +80,13 @@ main img { float: left;
 main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
+
+.teamPics{
+    width: auto;
+    text-align: center;
+    margin:auto;
+}
+
+.teamCategories{
+    font-style: normal;
+}
