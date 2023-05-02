@@ -83,6 +83,12 @@ main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
 
+video {
+
+    width: 100%;
+    height: auto;
+}
+
 .teamPics{
 
     text-align: center;
